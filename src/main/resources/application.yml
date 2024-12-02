@@ -8,8 +8,8 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/db?currentSchema=socle
-    username: postgres
-    password: mysecretpassword
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_SECRET}
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl : true
