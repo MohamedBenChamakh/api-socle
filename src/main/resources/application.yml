@@ -1,3 +1,7 @@
+server:
+  port: 8081
+  servlet:
+    contextPath: /api
 spring:
   application:
     name: api-socle
@@ -12,3 +16,20 @@ spring:
     show-sql: true
   hibernate:
     ddl-auto: create-drop
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/master
+
+
+config:
+  security:
+    authorized-urls:
+      - /v1/**
+  swagger:
+    urls:
+      - /v3/api-docs/**
+      - /swagger-ui/**
+      - /swagger-resources/**
+      - /swagger-resources
