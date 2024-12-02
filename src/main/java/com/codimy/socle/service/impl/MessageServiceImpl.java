@@ -5,7 +5,6 @@ import com.codimy.socle.model.MessageResponseBody;
 import com.codimy.socle.repository.MessageRepository;
 import com.codimy.socle.service.MessageService;
 import java.util.List;
-
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
