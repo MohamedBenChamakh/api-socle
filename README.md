@@ -9,4 +9,5 @@ The project has built in features:
  - Configurable authorization for paths
  - Example of Api
  - Format your code with Maven Spotless
+ - Map your Entities to DTOS with Mapstruct
 
