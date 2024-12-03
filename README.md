@@ -8,4 +8,5 @@ The project has built in features:
  - Stateless Authentication (Keycloak)
  - Configurable authorization for paths
  - Example of Api
+ - Format your code with Maven Spotless
 
